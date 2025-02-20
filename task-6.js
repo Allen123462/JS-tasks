@@ -19,4 +19,4 @@ while (input !== null) {
     input = prompt("Введіть число");
     console.log(input)
 }
-alert(total)
+alert(`Загальна сума чисел дорівнює ${total}`)
