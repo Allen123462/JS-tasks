@@ -31,5 +31,5 @@ switch (userCountry) {
         deliveryCost = -1
         break
 }
-if (deliveryCost !== -1) console.log("Доставка в", userCountry.toUpperCase()[0]+userCountry.slice(1), "буде коштувати", deliveryCost, "кредитів")
-else console.log("У вашій країні доставка недоступна")
+if (deliveryCost !== -1) alert("Доставка в", userCountry.toUpperCase()[0]+userCountry.slice(1), "буде коштувати", deliveryCost, "кредитів")
+else alert("У вашій країні доставка недоступна")
