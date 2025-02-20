@@ -17,6 +17,5 @@ while (input !== null) {
     if (isNaN(temp)) alert("Було написано не число, спробуйте ще раз")
     else total += temp
     input = prompt("Введіть число");
-    console.log(input)
 }
 alert(`Загальна сума чисел дорівнює ${total}`)
